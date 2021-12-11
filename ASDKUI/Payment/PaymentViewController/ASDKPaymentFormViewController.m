@@ -193,6 +193,7 @@ NSUInteger const CellPyamentCardID = CellEmptyFlexibleSpace + 1;
 	
     cancelButton.tintColor = [designConfiguration navigationBarButtonsColor];
 	[self.navigationItem setLeftBarButtonItem:cancelButton];
+	self.navigationItem.scrollEdgeAppearance = self.navigationController.navigationBar.standardAppearance;
 	
 	if (designConfiguration.customBackButton)
 	{
